@@ -11,11 +11,11 @@ func (p *person) speak() {
 
 }
 
-type huamn interface {
+type human interface {
 	speak()
 }
 
-func saySomething(h huamn) {
+func saySomething(h human) {
 	h.speak()
 
 }
