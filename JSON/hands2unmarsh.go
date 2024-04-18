@@ -17,9 +17,6 @@ func main() {
 
 	bs := []byte{}
 
-	fmt.Printf("%T", um)
-	fmt.Printf("%T", bs)
-
 	people := []animal{}
 	err := json.Unmarshal(bs, &people)
 	if err != nil {

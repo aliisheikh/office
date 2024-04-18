@@ -10,10 +10,10 @@ type me struct {
 	Age   int
 }
 
-//	func (m me) String() string {
-//		return fmt.Sprintln("First name and age is ", m.first, m.age)
-//
-// }
+func (m me) String() string {
+	return fmt.Sprintln("First name and age is ", m.First, m.Age)
+
+}
 func main() {
 
 	fmt.Println("Hands1")
