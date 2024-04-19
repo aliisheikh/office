@@ -1,0 +1,3 @@
+package MyPackage
+
+import "fmt"
